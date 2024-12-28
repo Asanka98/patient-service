@@ -54,7 +54,7 @@ jobs:
 
     - name: Update kubeconfig
       run: |
-        aws eks update-kubeconfig --region us-west-2 --name my-eks-cluster
+        aws eks update-kubeconfig --region ap-southeast-1 --name meditrack-eks-cluster
 
     - name: Apply Kubernetes Manifests
       run: |
