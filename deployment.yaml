@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: patient-service
-        image: patient-service:latest # Replace with your container registry path
+        image: 553580522931.dkr.ecr.ap-southeast-1.amazonaws.com/patient-service:latest # Replace with your container registry path
         ports:
         - containerPort: 8000
 ---
